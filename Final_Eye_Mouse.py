@@ -110,7 +110,7 @@ while True:
         blinking_time = 0
         is_clicked = False
 
-    cv2.putText(frame, "blinking_time: {:.4f}".format(blinking_time), (10, 410), cv2.FONT_HERSHEY_DUPLEX, 0.9, (147, 58, 31), 2)
+    cv2.putText(frame, "Blinking time: {:.4f}".format(blinking_time), (10, 410), cv2.FONT_HERSHEY_DUPLEX, 0.9, (147, 58, 31), 2)
 
     # 눈동자의 방향을 출력한다
     if gaze.is_right():
