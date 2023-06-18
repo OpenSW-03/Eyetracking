@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="eyemouselogo">
+    <file>eyemouseblue</file>
+    <file>button</file>
+  </qresource>
+</RCC>
